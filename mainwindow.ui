@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>828</width>
+    <height>828</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sierpinski Triangle</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="4">
+     <widget class="QSpinBox" name="spinBox">
+      <property name="maximum">
+       <number>11</number>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Kirajzoltatás</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label">
+      <property name="layoutDirection">
+       <enum>Qt::LayoutDirection::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>Iterációk száma:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3" colspan="3">
+     <widget class="QGraphicsView" name="graphicsView">
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::SizeAdjustPolicy::AdjustToContents</enum>
+      </property>
+      <property name="renderHints">
+       <set>QPainter::RenderHint::Antialiasing|QPainter::RenderHint::LosslessImageRendering|QPainter::RenderHint::NonCosmeticBrushPatterns|QPainter::RenderHint::SmoothPixmapTransform|QPainter::RenderHint::VerticalSubpixelPositioning</set>
+      </property>
+      <property name="dragMode">
+       <enum>QGraphicsView::DragMode::ScrollHandDrag</enum>
+      </property>
+      <property name="cacheMode">
+       <set>QGraphicsView::CacheModeFlag::CacheBackground</set>
+      </property>
+      <property name="transformationAnchor">
+       <enum>QGraphicsView::ViewportAnchor::AnchorUnderMouse</enum>
+      </property>
+      <property name="resizeAnchor">
+       <enum>QGraphicsView::ViewportAnchor::AnchorUnderMouse</enum>
+      </property>
+      <property name="viewportUpdateMode">
+       <enum>QGraphicsView::ViewportUpdateMode::BoundingRectViewportUpdate</enum>
+      </property>
+      <property name="optimizationFlags">
+       <set>QGraphicsView::OptimizationFlag::DontAdjustForAntialiasing</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>828</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAdatok_export_l_sa">
+    <property name="title">
+     <string>Egyéb műveletek és beállítások</string>
+    </property>
+    <addaction name="actionAdatok_export_l_sa"/>
+    <addaction name="actionAdatok_import_l_sa"/>
+    <addaction name="separator"/>
+    <addaction name="actionK_p_ment_se"/>
+    <addaction name="separator"/>
+    <addaction name="actionH_romsz_g_sz_ne"/>
+    <addaction name="actionH_tt_r_sz_ne"/>
+    <addaction name="actionH_romsz_g_megad_sa"/>
+   </widget>
+   <addaction name="menuAdatok_export_l_sa"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAdatok_export_l_sa">
+   <property name="text">
+    <string>Adatok exportálása...</string>
+   </property>
+  </action>
+  <action name="actionAdatok_import_l_sa">
+   <property name="text">
+    <string>Adatok importálása...</string>
+   </property>
+  </action>
+  <action name="actionK_p_ment_se">
+   <property name="text">
+    <string>Kép mentése...</string>
+   </property>
+  </action>
+  <action name="actionH_romsz_g_sz_ne">
+   <property name="text">
+    <string>Háromszög színe...</string>
+   </property>
+  </action>
+  <action name="actionH_tt_r_sz_ne">
+   <property name="text">
+    <string>Háttér színe...</string>
+   </property>
+  </action>
+  <action name="actionH_romsz_g_megad_sa">
+   <property name="text">
+    <string>Háromszög megadása...</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
