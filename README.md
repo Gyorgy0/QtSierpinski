@@ -16,3 +16,5 @@ Pontozás:
 
 
 Forrás: https://melytanulas.cc/Cpp/Cpp202425.html
+
+Webarchive: https://web.archive.org/web/20250126141935/https://melytanulas.cc/Cpp/Cpp202425.html
