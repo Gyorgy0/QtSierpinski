@@ -3,7 +3,7 @@ Feladat:
 
 2. Sierpinsky háromszög (7 pont)
 
-Készítsetek egy grafikus programot amely kigenerálja az n.n. Sierpinsky háromszöget.
+Készítsetek egy grafikus programot amely kigenerálja az n. Sierpinsky háromszöget.
 Pontozás:
 
     A program elindul és beállítható az iterációs paramétert (1 pont)
