@@ -1,20 +1,3 @@
-Készítette: Juraj Lukovics (AiS azonosító: 131557)
-Feladat:
+Written in C++ this program allows the user to generate fractals until lvl 11 (Image size limit) at level 12 the program tries to generate a 20 480x20 480 but it fails, so to keep the program within safe bounds I set the maximum iteration count to 11.
 
-2. Sierpinsky háromszög (7 pont)
-
-Készítsetek egy grafikus programot amely kigenerálja az n. Sierpinsky háromszöget.
-Pontozás:
-
-    A program elindul és beállítható az iterációs paramétert (1 pont)
-    A program kirajzolja az első háromszöget. (1 pont)
-    A program kirajzolja a második háromszöget. (1 pont)
-    A program kirajzolja az n.n. háromszöget n<10n<10-ig. (1 pont)
-    A program elmenti a generált háromszöget png formátumban. (1 pont)
-    A kezdeti háromszög pontjait a felhasználó egérkattintással választhatja ki. (1 pont)
-    A program exportálja a háromszöget Qt formátumban amit kérésre be tud tölteni. (1 pont)
-
-
-Forrás: https://melytanulas.cc/Cpp/Cpp202425.html
-
-Webarchive: https://web.archive.org/web/20250126141935/https://melytanulas.cc/Cpp/Cpp202425.html
+The application can be downloaded using the installer or it can be directly compiled, using the source code in Qt Creator.
